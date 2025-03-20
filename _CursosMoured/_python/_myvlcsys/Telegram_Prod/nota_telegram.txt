@@ -1,0 +1,58 @@
+G:\Mi unidad\_mi_prog\_python\_myvlcsys\Telegram_Prod
+
+
+https://www.youtube.com/watch?v=wt5IVr1eibE
+
+
+#######
+
+Use this token to access the HTTP API:
+8194628476:AAE7AoBzq-_oC9GmG3xPDPvJ1SLS82BoJeA
+
+
+
+
+#####################
+
+
+#### Conexión con bd
+
+mydb = mysql.connector.connect(
+  host="myvlcsys.com",
+  user="u591865418_v",
+  password="vlcVicente2020",
+  database="u591865418_v"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("select * from usuario")
+
+myresult = mycursor.fetchall()
+
+for x in myresult:
+  print(x)
+####
+
+
+
+
+INSERT INTO `u591865418_v`.`z_mi_prog`
+(`id`,
+`usuario`,
+`us_dpto`,
+`us_edificio`,
+`us_tel`,
+`us_activo`,
+`us_peso`)
+VALUES
+(
+2,
+"Prueba",
+"Prueba",
+"Prueba",
+0000000,
+0,
+100);
+
+select * from z_mi_prog

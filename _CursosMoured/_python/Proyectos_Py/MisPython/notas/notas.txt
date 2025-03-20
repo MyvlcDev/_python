@@ -1,0 +1,64 @@
+import mysql.connector
+
+
+conexion1=mysql.connector.connect(host="myvlcsys.com", user="u591865418_usu_myvlcsys", passwd="oD7TRr&2tO@")
+cursor1=conexion1.cursor()
+cursor1.execute("show databases")
+for base in cursor1:
+    print(base)
+conexion1.close()
+
+
+************
+CIFRADO OK
+************
+
+import mysql.connector
+from getpass import getpass
+
+import bcrypt
+
+import libreria_myvlcsys
+
+""" text_encripatado =libreria_myvlcsys.encriptar("hola")
+
+print ("Texto encriptado : " + text_encripatado)
+
+texto_desencriptado =libreria_myvlcsys.desencriptar(text_encripatado)
+
+print("Texto desencriptado 1: " + texto_desencriptado) """
+
+txt = input("Ingrese un texto: " ) 
+pwd = txt.encode('utf-8')
+sal= bcrypt.gensalt()
+encript = bcrypt.hashpw(pwd, sal)
+
+print(encript)
+
+##### validar contraseña pwd2 = chato
+
+pwd2 = b'$2b$12$U4kNV/yvgTENsLjPiiMHau0yHejCGOstvj3NysA/KCjWsHAfJ7Mti'
+
+txt2 = bytes(input("Ingrese un texto: "), 'utf-8')
+if bcrypt.checkpw(txt2, pwd2):
+    print("la contraseña es correcta")
+else:
+    print("La contraseña es incorrecta")
+
+
+
+    ********
+    SQL OK 
+    *********
+    INSERT INTO `u591865418_bd_myvclsys_es`.`t_mis_cont`
+(`sitio_t_cont`,
+`usuario_t_cont`,
+`password_t_cont`,
+`categoria_t_cont`,
+`activo_t_cont`)
+VALUES
+('Sitio de prueba',
+'usuario de prueba' ,
+'password de prueba',
+'cat prueba',
+true );

@@ -1,0 +1,28 @@
+Nombre:          Perdo               
+1er Apellido:   Gil                 
+Edad:            64         
+         
+Nombre:          Elvira              
+1er Apellido:   Canovas             
+Edad:            38                  
+                                     
+Nombre:          Damian              
+1er Apellido:   Fernandez           
+Edad:            96                  
+                                     
+Nombre:          Juan                
+1er Apellido:   Lucas               
+Edad:            20                  
+                                     
+Nombre:          Alonso              
+1er Apellido:   Perez               
+Edad:            18                  
+                                     
+Nombre:          Francisco           
+1er Apellido:   Ruiz                
+Edad:            23                  
+                                     
+Nombre:          Tomás               
+1er Apellido:    García              
+Edad:            56                  
+                                     

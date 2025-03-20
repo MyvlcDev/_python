@@ -1,0 +1,13 @@
+ INSERT INTO `u591865418_bd_myvclsys_es`.`t_gestion`
+(`usuario_tgestion`,
+`password_tgestion`,
+`activo_usuario_tgestion`,
+`comentarios_tgestion`,
+`privilegios_tgestion`)
+VALUES
+(
+"chato4",
+"0000",
+1,
+"comentarios de usuario",
+1);

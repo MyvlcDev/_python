@@ -1,0 +1,22 @@
+
+ *  estructuras de datos son una forma de organizar y almacenar datos de manera eficiente.
+ * Se utilizan para gestionar colecciones de datos de manera eficiente.
+ * Las estructuras de datos básicas incluyen:
+    * - Listas
+    * - Tuplas
+    * - Diccionarios
+    * - Conjuntos
+    * - Pilas
+    * - Colas
+    * - Árboles
+    * - Grafos
+      * - Tablas hash
+      * - Listas enlazadas
+      * - Matrices
+      * - etc.
+
+   * En Python, las estructuras de datos se pueden clasificar en dos categorías:
+   * - Estructuras de datos incorporadas
+ 
+
+ Video - https://www.youtube.com/watch?v=qSup_483xO8&t=300s

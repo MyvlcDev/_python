@@ -1,0 +1,15 @@
+
+Por otro lado, en Python se distingue entre objetos mutables y objetos inmutables:
+
+Los objetos inmutables son objetos que no se pueden modificar. Por ejemplo, los números, las cadenas y las tuplas son objetos inmutables.
+Los objetos mutables son objetos que se pueden modificar. Por ejemplo, las listas y los diccionarios son objetos mutables.
+ 
+
+ El nombre de una variable debe empezar por una letra o por un guion bajo (_) y puede seguir con más letras, números o guiones bajos.
+
+ 
+
+Los nombres de variables no pueden incluir espacios en blanco.
+
+
+Los nombres de las variables pueden contener mayúsculas, pero tenga en cuenta que Python distingue entre mayúsculas y minúsculas (en inglés se dice que Python es "case-sensitive").
